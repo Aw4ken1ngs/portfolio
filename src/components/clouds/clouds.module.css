@@ -1,0 +1,273 @@
+.animationCloud1,
+.animationCloud2,
+.animationCloud4,
+.animationCloud5,
+.animationCloud6,
+.animationCloud7 {
+    position: absolute;
+    overflow: hidden;
+}
+
+.animationCloud1 {
+    left: 1%;
+    bottom: 45%;
+    animation: flyingCloud1 5s linear infinite;
+}
+
+@keyframes flyingCloud1 {
+    0% {
+        transform: translateX(250%);
+    }
+    50% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(250%);
+    }
+}
+
+.animationCloud2 {
+    left: 2%;
+    bottom: 33%;
+    animation: flyingCloud2 3s linear infinite;
+}
+
+@keyframes flyingCloud2 {
+    0% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(250%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+
+.animationCloud4 {
+    left: 15%;
+    top: 25%;
+    animation: flyingCloud4 5s linear infinite;
+}
+
+@keyframes flyingCloud4 {
+    0% {
+        transform: translateX(-80%);
+    }
+    50% {
+        transform: translateX(400%);
+    }
+    100% {
+        transform: translateX(-80%);
+    }
+}
+
+.animationCloud5 {
+    left: 25%;
+    top: 5%;
+    animation: flyingCloud5 4s linear infinite;
+}
+
+@keyframes flyingCloud5 {
+    0% {
+        transform: translateX(50vw);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(50vw);
+    }
+}
+
+
+.animationCloud6 {
+    left: -1%;
+    bottom: -5%;
+    animation: animationCloud6 6s infinite ease-in-out;
+}
+
+@keyframes animationCloud6 {
+    0% {
+        transform: translate(-5px, -5px);
+    }
+    20% {
+        transform: translate(5px, -5px);
+    }
+    40% {
+        transform: translate(-15px, 5px);
+    }
+    60% {
+        transform: translate(5px, 5px);
+    }
+    80% {
+        transform: translate(-10px, -15px);
+    }
+    100% {
+        transform: translate(-5px, -5px);
+    }
+}
+
+.animationCloud7 {
+    right: -1%;
+    bottom: -20px;
+    animation: animationCloud7 11s infinite ease-in-out;
+}
+
+@keyframes animationCloud7 {
+    0% {
+        transform: translate(-5px, -5px);
+    }
+    20% {
+        transform: translate(5px, -5px);
+    }
+    40% {
+        transform: translate(-15px, 5px);
+    }
+    60% {
+        transform: translate(5px, 5px);
+    }
+    80% {
+        transform: translate(-10px, -15px);
+    }
+    100% {
+        transform: translate(-5px, -5px);
+    }
+}
+
+
+/*.animationCloud1 {
+    position: absolute;
+    left: 1%;
+    bottom: 45%;
+    animation: flyingCloud1 35s linear infinite;
+}
+
+@keyframes flyingCloud1 {
+    0% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(290%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.animationCloud2 {
+    position: absolute;
+    left: 2%;
+    bottom: 33%;
+    transform: translateX(-100%);
+    animation: flyingCloud2 35s linear infinite;
+}
+
+@keyframes flyingCloud2 {
+    0% {
+        transform: translateX(280%);
+    }
+    50% {
+        transform: translateX(0%)
+    }
+    100% {
+        transform: translateX(280%)
+    }
+}
+
+.animationCloud4 {
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    transform: translateX(-50%);
+    animation: flyingCloud4 45s linear infinite;
+}
+
+@keyframes flyingCloud4 {
+    0% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(450%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.animationCloud5 {
+    position: absolute;
+    left: 25%;
+    top: 5%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    animation: flyingCloud5 40s linear infinite;
+}
+
+@keyframes flyingCloud5 {
+    0% {
+        transform: translateX(60vw);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(60vw);
+    }
+}
+
+.animationCloud6 {
+    position: absolute;
+    left: 0%;
+    top: 81%;
+    overflow: hidden;
+    animation: animationCloud6 9s infinite ease-in-out;
+}
+@keyframes animationCloud6 {
+    0% {
+        transform: translate(-5px, -5px);
+    }
+    20% {
+        transform: translate(5px, -5px);
+    }
+    40% {
+        transform: translate(-15px, 5px);
+    }
+    60% {
+        transform: translate(5px, 5px);
+    }
+    80% {
+        transform: translate(-10px, -15px);
+    }
+    100% {
+        transform: translate(-5px, -5px);
+    }
+}
+.animationCloud7 {
+    position: absolute;
+    left: 73%;
+    top: 81%;
+    overflow: hidden;
+    animation: animationCloud7 11s infinite ease-in-out;
+}
+@keyframes animationCloud7 {
+    0% {
+        transform: translate(-5px, -5px);
+    }
+    20% {
+        transform: translate(5px, -5px);
+    }
+    40% {
+        transform: translate(-15px, 5px);
+    }
+    60% {
+        transform: translate(5px, 5px);
+    }
+    80% {
+        transform: translate(-10px, -15px);
+    }
+    100% {
+        transform: translate(-5px, -5px);
+    }
+}*/

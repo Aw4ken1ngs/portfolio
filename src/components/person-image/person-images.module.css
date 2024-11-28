@@ -1,0 +1,22 @@
+.container {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%);
+    animation: flying 10s ease-in-out infinite;
+    z-index: 10;
+}
+
+@keyframes flying {
+    0% {
+        transform: translateX(-50%) translateY(45%);
+    }
+
+    50% {
+        transform: translateX(-50%) translateY(75%);
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(45%);
+    }
+}
