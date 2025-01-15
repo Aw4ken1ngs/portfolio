@@ -32,7 +32,7 @@ export function Icons() {
     const handleClosePopup = () => setActivePopup(null);
 
     return (
-        <div>
+        <div className={styles.test}>
             {ICONS.map((icon) => (
                 <div
                     key={icon.id}

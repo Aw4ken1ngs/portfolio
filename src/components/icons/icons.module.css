@@ -208,19 +208,19 @@
 }
 
 .iconsGit {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background-color: #EE715F;
     position: absolute;
-    top: 130%;
-    left: 50%;
+    top: 49%;
+    left: 31%;
     transform: translate(-50%, 0);
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    animation: animationIcon 11s infinite ease-in-out;
+    animation: animationIcon 15s infinite ease-in-out;
     transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.5s ease;
 }
 
@@ -381,15 +381,15 @@
 }
 
 .iconsMe  {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    bottom: 8%;
+    bottom: 4%;
     left: 53%;
     transform: translate(-50%, 0);
     cursor: pointer;
     animation: animationIcon 12s infinite ease-in-out;
-    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.5s ease;
+    transition: transform 0.4s ease, opacity 0.4s ease;
 }
 
 .iconsMe:hover {
@@ -399,15 +399,15 @@
 }
 
 .iconsCareer  {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    bottom: 8%;
+    bottom: 4%;
     left: 43%;
     transform: translate(-50%, 0);
     cursor: pointer;
     animation: animationIcon 15s infinite ease-in-out;
-    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.5s ease;
+    transition: transform 0.4s ease, opacity 0.4s ease;
 }
 
 .iconsCareer:hover {
